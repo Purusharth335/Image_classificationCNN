@@ -1,15 +1,18 @@
 # Image_classificationCNN
 Image classification using cnn model
-
-image-classification-app/
-├── app.py
+please download all files and arrange the file in this order
+image_classification_app/
+├── app.py                        # Flask app script
 ├── model/
-│   └── cnn_model.h5
-├── static/
-│   └── uploads/
+│   └── model.h5             # Trained model file
+├── uploads/                      # Temporary image upload folder
 ├── templates/
-│   └── index.html
-└── utils.py
+│   └── index.html                # Frontend HTML with Bootstrap
+├── static/
+│   └── style.css                 # (Optional) custom styles
+├── requirements.txt              # List of Python dependencies
+└── README.md                     # (Optional) project description
+
 
 Requirements (requirements.txt)
 
